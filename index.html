@@ -8,15 +8,14 @@
 </head>
 
 <nav class="toc">
-  <h2>Contents</h2>
-  <ul>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#experience">Professional Experience</a></li>
-    <li><a href="#skills">Technical Skills</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-  </ul>
+  <div class="toc-grid">
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Professional Experience</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#contact">Contact Me</a>
+  </div>
 </nav>
 
 <body>
@@ -109,7 +108,7 @@
     </div>
 
     <div class="project">
-      <h3>Secure Banking System –</h3>
+      <h3>Secure Banking System</h3>
       <p>Implemented a secure client-server banking application using Python with encrypted communication. Designed mutual authentication using HMAC-SHA256 and AES-256-CBC with session-based key derivation. Built secure transaction handling and encrypted audit logging with a GUI interface using Tkinter.</p>
       <a href="https://github.com/Tanim7/Secure-Banking-System" target="_blank">View Project</a>
     </div>
@@ -117,15 +116,20 @@
 
 
   <section id="contact">
-  <h2>Contact Me</h2>
-  <p>If you'd like to connect, feel free to reach out:</p>
+    <h2>Contact Me</h2>
+      <form class="contact-form"
+            action="https://formspree.io/f/xnjndqgq"
+            method="POST">
 
-  <ul>
-    <li>Email: <a href="mailto:tahmilur.rahman@yahoo.com">Personal Email</a></li>
-    <li>GitHub: <a href="https://github.com/tanim7" target="_blank">GitHub Profile</a></li>
-    <li>LinkedIn: <a href="https://linkedin.com/in/tahmilur/" target="_blank">LinkedIn Profile</a></li>
-  </ul>
-</section>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+  </section>
+
 
   <footer>
     <p>© 2026 Tahmilur Rahman. All rights reserved.</p>
