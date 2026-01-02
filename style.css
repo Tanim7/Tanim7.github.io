@@ -51,3 +51,45 @@ ul {
 li {
   margin-bottom: 8px;
 }
+
+.toc {
+  background: #ffffff;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin: 8px 0;
+}
+
+.toc a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+#contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contact li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
