@@ -94,15 +94,6 @@ li {
   text-decoration: none;
 }
 
-.toc {
-  background: #ffffff;
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 900px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
 .toc ul {
   list-style: none;
   padding-left: 0;
@@ -285,8 +276,8 @@ section {
   padding: 14px;
   border-radius: 25px;
   border: none;
-  background: var(--accent);
-  color: #020617;
+  background: #1e293b;
+  color: var(--text-color);
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
